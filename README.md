@@ -3,6 +3,8 @@
 
 À l'âge de 9 ans, j'ai entrepris un projet ambitieux de développement logiciel, motivé par ma passion naissante pour l'informatique. Mon objectif était de créer un système de gestion d'articles et d'emplacements, offrant une interface utilisateur conviviale.
 
+Ce projet illustre mon intérêt profond pour les modèles de données : organiser et stocker efficacement des informations est crucial en informatique, notamment à l'ère de l'intelligence artificielle.
+
 ## Contexte et Objectifs
 
 En utilisant le langage Python et la bibliothèque PyQt5 pour les interfaces graphiques utilisateur (GUI), j'ai cherché à développer mes compétences en informatique tout en créant un outil fonctionnel et esthétiquement plaisant.
@@ -34,3 +36,11 @@ J'ai utilisé les fonctionnalités de manipulation de données de Python pour in
 
 ### Récursivité et algorithmes de parcours
 Pour la gestion hiérarchique des emplacements, j'ai mis en œuvre des algorithmes récursifs pour parcourir et afficher les données de manière efficace, démontrant ma compréhension des concepts avancés d'algorithmique.
+
+## Organisation du code :
+
+* main.py : Le fichier principal pour exécuter le programme. Il charge les configurations à partir d'un fichier JSON, initialise la base de données et lance l'interface utilisateur.
+
+* data.py : Ce module contient la classe DatabaseManager qui gère les opérations de base de données telles que la création de tables, l'ajout, la suppression et la modification d'entrées, ainsi que la récupération de données.
+
+* components/ : Ce répertoire contient les différentes composantes de l'interface utilisateur, telles que les fenêtres de dialogue pour ajouter des articles ou des emplacements, ainsi que la classe Root qui agit comme le point d'entrée principal pour l'interface utilisateur.
