@@ -2,8 +2,6 @@ CREATE TRIGGER IF NOT EXISTS location_before_insert
 BEFORE INSERT ON Locations
 FOR EACH ROW
 BEGIN
-    -- Vérification si location_parent_id référencé dans la table locations existe dans la même table
-    -- et si un location parent est déjà défini comme étant un descendant du location à insérer
     SELECT
         CASE
             WHEN EXISTS (
