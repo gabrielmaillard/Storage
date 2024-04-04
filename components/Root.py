@@ -24,7 +24,7 @@ class Root(QtWidgets.QMainWindow):
         self.locations_table = locations_table
 
         self.setGeometry(y_pos, x_pos, width, height)
-        self.setWindowTitle("D&velopp")
+        self.setWindowTitle("Gestionnaire")
         self.setWindowIcon(QtGui.QIcon("img/add.ico"))
         #self.setWindowFlags(QtCore.Qt.FramelessWindowHint)
         self.ui()
