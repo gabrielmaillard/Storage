@@ -25,10 +25,15 @@ J'ai adopté une approche orientée objet pour organiser le code en classes et e
 
 5. Réutilisation de Composants : Les widgets sont personnalisés pour permettre, par exemple, la gestion de l'arborescence des données et des onglets dynamiques.
 
-## Organisation du code :
+## Organisation du code
 
 * main.py : Le fichier principal pour exécuter le programme. Il charge les configurations à partir du fichier de configuration JSON, initialise la base de données et lance l'interface utilisateur.
 
 * data.py : Ce module contient la classe DatabaseManager qui gère les opérations sur la BDD telles que la création de tables, l'ajout, la suppression et la modification d'entrées, ainsi que la récupération de données.
 
 * components/ : Ce répertoire contient les différentes composantes de l'interface utilisateur, comme les fenêtres de dialogue pour ajouter des articles ou des emplacements
+
+## Captures d'écran
+
+![1](README/1.JPG)
+![2](README/2.JPG)
