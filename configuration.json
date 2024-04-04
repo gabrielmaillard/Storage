@@ -1,0 +1,15 @@
+{
+    "sqlite": {
+        "dbURL": "db/db.db"
+    },
+    "tables": {
+        "tables.articles": "Articles",
+        "tables.locations": "Locations"
+    },
+    "window": {
+        "window.width": 1480,
+        "window.height": 720,
+        "window.x": 0,
+        "window.y": 0
+    }
+}
